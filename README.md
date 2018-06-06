@@ -8,14 +8,14 @@
 
 [**Support me with a Follow**](https://github.com/simman/followers)
 
-[npm-badge]: https://img.shields.io/npm/v/rnkit-linkface.svg
-[npm]: https://www.npmjs.com/package/rnkit-linkface
+[npm-badge]: https://img.shields.io/npm/v/rnkit-linkface-n.svg
+[npm]: https://www.npmjs.com/package/rnkit-linkface-n
 [rn-badge]: https://img.shields.io/badge/react--native-v0.40-05A5D1.svg
 [rn]: https://facebook.github.io/react-native
 [license-badge]: https://img.shields.io/dub/l/vibe-d.svg
-[license]: https://raw.githubusercontent.com/rnkit/rnkit-linkface/master/LICENSE
-[bithound-badge]: https://www.bithound.io/github/rnkit/rnkit-linkface/badges/score.svg
-[bithound]: https://www.bithound.io/github/rnkit/rnkit-linkface
+[license]: https://raw.githubusercontent.com/rnkit/rnkit-linkface-n/master/LICENSE
+[bithound-badge]: https://www.bithound.io/github/rnkit/rnkit-linkface-n/badges/score.svg
+[bithound]: https://www.bithound.io/github/rnkit/rnkit-linkface-n
 
 LinkFace Doc: [http://devdoc.cloud.linkface.cn/](http://devdoc.cloud.linkface.cn/)
 

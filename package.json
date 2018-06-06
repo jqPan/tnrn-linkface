@@ -2,8 +2,7 @@
   "name": "rnkit-linkface-n",
   "description": "人脸识别/活体检测-linkface for ReactNative",
   "main": "lib/index.js",
-  "author": "SimMan <liwei0990@gmail.com>",
-  "updater": "winter <winterw201501@gmail.com>",
+  "author": "winterw <winterw201501@gmail.com>",
   "version": "0.2.0",
   "scripts": {
     "test": "npm run test"
@@ -21,6 +20,7 @@
     "linkface",
     "rnkit",
     "rnkit-linkface",
+    "rnkit-linkface-n",
     "react-native-linkface",
     "react-native-ocr"
   ],
