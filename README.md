@@ -21,21 +21,21 @@ LinkFace Doc: [http://devdoc.cloud.linkface.cn/](http://devdoc.cloud.linkface.cn
 
 ## Getting Started
 
-First, `cd` to your RN project directory, and install RNMK through [rnpm](https://github.com/rnpm/rnpm) . If you don't have rnpm, you can install RNMK from npm with the command `npm i -S rnkit-linkface` and link it manually (see below).
+First, `cd` to your RN project directory, and install RNMK through [rnpm](https://github.com/rnpm/rnpm) . If you don't have rnpm, you can install RNMK from npm with the command `npm i -S rnkit-linkface-n` and link it manually (see below).
 
 ### iOS
 
 * #### React Native < 0.29 (Using rnpm)
 
-  `rnpm install rnkit-linkface`
+  `rnpm install rnkit-linkface-n`
 
 * #### React Native >= 0.29
-  `$npm install -S rnkit-linkface`
+  `$npm install -S rnkit-linkface-n`
 
-  `$react-native link rnkit-linkface`
+  `$react-native link rnkit-linkface-n`
 
 #### Manually
-1. Add `node_modules/rnkit-linkface/ios/RNKitLinkFace.xcodeproj` to your xcode project, usually under the `Libraries` group
+1. Add `node_modules/rnkit-linkface-n/ios/RNKitLinkFace.xcodeproj` to your xcode project, usually under the `Libraries` group
 1. Add `libRNKitLinkFace.a` (from `Products` under `RNKitLinkFace.xcodeproj`) to build target's `Linked Frameworks and Libraries` list
 1. Add linkface framework to `$(PROJECT_DIR)/Frameworks.`
 
@@ -43,20 +43,20 @@ First, `cd` to your RN project directory, and install RNMK through [rnpm](https:
 
 * #### React Native < 0.29 (Using rnpm)
 
-  `rnpm install rnkit-linkface`
+  `rnpm install rnkit-linkface-n`
 
 * #### React Native >= 0.29
-  `$npm install -S rnkit-linkface`
+  `$npm install -S rnkit-linkface-n`
 
-  `$react-native link rnkit-linkface`
+  `$react-native link rnkit-linkface-n`
 
 #### Manually
 1. JDK 7+ is required
 1. Add the following snippet to your `android/settings.gradle`:
 
   ```gradle
-include ':rnkit-linkface'
-project(':rnkit-linkface').projectDir = new File(rootProject.projectDir, '../node_modules/rnkit-linkface/android/app')
+include ':rnkit-linkface-n'
+project(':rnkit-linkface-n').projectDir = new File(rootProject.projectDir, '../node_modules/rnkit-linkface-n/android/app')
   ```
   
 1. Declare the dependency in your `android/app/build.gradle`
@@ -64,7 +64,7 @@ project(':rnkit-linkface').projectDir = new File(rootProject.projectDir, '../nod
   ```gradle
   dependencies {
       ...
-      compile project(':rnkit-linkface')
+      compile project(':rnkit-linkface-n')
   }
   ```
   
@@ -80,7 +80,7 @@ project(':rnkit-linkface').projectDir = new File(rootProject.projectDir, '../nod
   }
   ```
 
-Finally, you're good to go, feel free to require `rnkit-linkface` in your JS files.
+Finally, you're good to go, feel free to require `rnkit-linkface-n` in your JS files.
 
 Have fun! :metal:
 
@@ -89,7 +89,7 @@ Have fun! :metal:
 Import library
 
 ```
-import RNKitLinkFace from 'rnkit-linkface';
+import RNKitLinkFace from 'rnkit-linkface-n';
 ```
 
 ### Start
@@ -104,7 +104,9 @@ try {
       "MOUTH",
       "NOD",
       "YAW"
-    ]
+    ],
+    "apiKey": "****",
+    "apiSecret": "****",
   });
 	console.log(result);
 } catch (error) {
@@ -118,7 +120,10 @@ try {
 | --- | --- | --- | --- |
 | Complexity | int |  | 活体检测复杂度
 | sequence | array |  | 设置识别序列, 活体检测复杂度 |
-| outType | string |  | 输出方案, 单图方案:singleImg, 多图方案:multiImg, 低质量视频方案:video, 高质量视频方案:fullVideo |
+| outType | string |  | 输出方案, 单图方案:singleImg, 多图方案:multiImg, 低质量视频方案:video, 高质量视频
+方案:fullVideo |
+| apiKey | string |  | 厂商提供的 apiKey
+| apiSecret | string |  | 厂商提供的 apiSecret
 
 #### Start Output Params
 
