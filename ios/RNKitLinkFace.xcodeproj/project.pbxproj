@@ -10,6 +10,10 @@
 		3FA30F051F54129400BB868E /* RNKitLinkFaceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA30F041F54129400BB868E /* RNKitLinkFaceUtils.m */; };
 		3FA30F2C1F548A0F00BB868E /* STAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA30F2B1F548A0F00BB868E /* STAlertView.m */; };
 		3FD15E931EC04B1B001ABA06 /* RNKitLinkFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD15E921EC04B1B001ABA06 /* RNKitLinkFace.m */; };
+		C864F14A20C8C6D900BD8146 /* STLivenessController.m in Sources */ = {isa = PBXBuildFile; fileRef = C864F13B20C8C6D500BD8146 /* STLivenessController.m */; };
+		C864F14B20C8C6D900BD8146 /* UIView+STLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C864F13E20C8C6D500BD8146 /* UIView+STLayout.m */; };
+		C864F14D20C8C6D900BD8146 /* STStartAndStopIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C864F14720C8C6D800BD8146 /* STStartAndStopIndicatorView.m */; };
+		C864F14E20C8C6D900BD8146 /* SZNumberLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C864F14820C8C6D800BD8146 /* SZNumberLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +36,23 @@
 		3FA30F2B1F548A0F00BB868E /* STAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAlertView.m; sourceTree = "<group>"; };
 		3FD15E911EC04B1B001ABA06 /* RNKitLinkFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNKitLinkFace.h; sourceTree = "<group>"; };
 		3FD15E921EC04B1B001ABA06 /* RNKitLinkFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNKitLinkFace.m; sourceTree = "<group>"; };
+		C864F13920C8C6D400BD8146 /* STLivenessCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLivenessCommon.h; sourceTree = "<group>"; };
+		C864F13A20C8C6D400BD8146 /* STImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STImage.h; sourceTree = "<group>"; };
+		C864F13B20C8C6D500BD8146 /* STLivenessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLivenessController.m; sourceTree = "<group>"; };
+		C864F13C20C8C6D500BD8146 /* STLivenessDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLivenessDetector.h; sourceTree = "<group>"; };
+		C864F13D20C8C6D500BD8146 /* SZNumberLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZNumberLabel.h; sourceTree = "<group>"; };
+		C864F13E20C8C6D500BD8146 /* UIView+STLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STLayout.m"; sourceTree = "<group>"; };
+		C864F13F20C8C6D600BD8146 /* STLivenessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLivenessController.h; sourceTree = "<group>"; };
+		C864F14120C8C6D600BD8146 /* STStartAndStopIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STStartAndStopIndicatorView.h; sourceTree = "<group>"; };
+		C864F14320C8C6D700BD8146 /* STLivenessDetectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLivenessDetectorDelegate.h; sourceTree = "<group>"; };
+		C864F14520C8C6D700BD8146 /* STFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFace.h; sourceTree = "<group>"; };
+		C864F14620C8C6D700BD8146 /* STLivenessEnumType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLivenessEnumType.h; sourceTree = "<group>"; };
+		C864F14720C8C6D800BD8146 /* STStartAndStopIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STStartAndStopIndicatorView.m; sourceTree = "<group>"; };
+		C864F14820C8C6D800BD8146 /* SZNumberLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZNumberLabel.m; sourceTree = "<group>"; };
+		C864F14920C8C6D800BD8146 /* UIView+STLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STLayout.h"; sourceTree = "<group>"; };
+		C864F15020C8C7A400BD8146 /* libSTLivenessDetector.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSTLivenessDetector.a; sourceTree = "<group>"; };
+		C864F15120C8C7A400BD8146 /* SenseID_Liveness_Interactive.lic */ = {isa = PBXFileReference; lastKnownFileType = text; path = SenseID_Liveness_Interactive.lic; sourceTree = "<group>"; };
+		C864F15220C8C7A400BD8146 /* st_liveness_resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = st_liveness_resource.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,14 +77,39 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				C864F14F20C8C7A400BD8146 /* Frameworks */,
 				3FA30F2A1F548A0E00BB868E /* STAlertView.h */,
 				3FA30F2B1F548A0F00BB868E /* STAlertView.m */,
 				3FA30F031F54129400BB868E /* RNKitLinkFaceUtils.h */,
 				3FA30F041F54129400BB868E /* RNKitLinkFaceUtils.m */,
 				3FD15E911EC04B1B001ABA06 /* RNKitLinkFace.h */,
 				3FD15E921EC04B1B001ABA06 /* RNKitLinkFace.m */,
+				C864F14520C8C6D700BD8146 /* STFace.h */,
+				C864F13A20C8C6D400BD8146 /* STImage.h */,
+				C864F13920C8C6D400BD8146 /* STLivenessCommon.h */,
+				C864F13F20C8C6D600BD8146 /* STLivenessController.h */,
+				C864F13B20C8C6D500BD8146 /* STLivenessController.m */,
+				C864F13C20C8C6D500BD8146 /* STLivenessDetector.h */,
+				C864F14320C8C6D700BD8146 /* STLivenessDetectorDelegate.h */,
+				C864F14620C8C6D700BD8146 /* STLivenessEnumType.h */,
+				C864F14120C8C6D600BD8146 /* STStartAndStopIndicatorView.h */,
+				C864F14720C8C6D800BD8146 /* STStartAndStopIndicatorView.m */,
+				C864F13D20C8C6D500BD8146 /* SZNumberLabel.h */,
+				C864F14820C8C6D800BD8146 /* SZNumberLabel.m */,
+				C864F14920C8C6D800BD8146 /* UIView+STLayout.h */,
+				C864F13E20C8C6D500BD8146 /* UIView+STLayout.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		C864F14F20C8C7A400BD8146 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C864F15020C8C7A400BD8146 /* libSTLivenessDetector.a */,
+				C864F15120C8C7A400BD8146 /* SenseID_Liveness_Interactive.lic */,
+				C864F15220C8C7A400BD8146 /* st_liveness_resource.bundle */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C864F14D20C8C6D900BD8146 /* STStartAndStopIndicatorView.m in Sources */,
+				C864F14E20C8C6D900BD8146 /* SZNumberLabel.m in Sources */,
 				3FD15E931EC04B1B001ABA06 /* RNKitLinkFace.m in Sources */,
+				C864F14A20C8C6D900BD8146 /* STLivenessController.m in Sources */,
+				C864F14B20C8C6D900BD8146 /* UIView+STLayout.m in Sources */,
 				3FA30F2C1F548A0F00BB868E /* STAlertView.m in Sources */,
 				3FA30F051F54129400BB868E /* RNKitLinkFaceUtils.m in Sources */,
 			);
@@ -217,7 +267,10 @@
 					"$(SRCROOT)/../../../ios/Frameworks/**",
 					"$(SRCROOT)/../../ios/Frameworks/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNKitLinkFace;
 				SKIP_INSTALL = YES;
@@ -236,7 +289,10 @@
 					"$(SRCROOT)/../../../ios/Frameworks/**",
 					"$(SRCROOT)/../../ios/Frameworks/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNKitLinkFace;
 				SKIP_INSTALL = YES;
