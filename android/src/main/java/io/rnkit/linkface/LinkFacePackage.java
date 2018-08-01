@@ -16,7 +16,7 @@ public class LinkFacePackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new LinkFaceModule(reactContext));
     }
 
-    @Override
+    // @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
